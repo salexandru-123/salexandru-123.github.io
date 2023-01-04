@@ -1,0 +1,33 @@
+.section{
+    width: 100%;
+    background-color: lightgray;
+}
+.section-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4%;
+    gap:3%;
+}
+.card{
+    background-color: white;
+    padding:3% 2%;
+    border-radius: 20px 20px 20px 0;
+    text-align: center;
+    line-height: 1.2;
+}
+.card h2{
+    font-size: 1.8rem;
+}
+.card span{
+    font-size: 1.3rem;
+}
+.card img{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 0px 2px 5px;
+}
+#nail2{
+    filter: grayscale(1);
+}
