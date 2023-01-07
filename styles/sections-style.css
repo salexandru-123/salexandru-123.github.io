@@ -54,6 +54,7 @@
     width: 20%;
     height: 30%;
     min-width: 300px;
+    max-width: 20%;
     max-height: 250px;
     
 }
