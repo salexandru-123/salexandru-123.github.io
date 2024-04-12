@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-h1{
+h1:first{
     font-style: italic;
 }
 h1 > a{
