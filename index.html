@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soreanu Stefan Alexandru</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Welcome to My Portfolio</h1>
+            <br>
+            <img src="image/profilephoto.png" alt="My Photo" srcset="">
+            <h3>I'm Stefan Alexandru Soreanu, a passionate developer.</h3>
+            <!--<a href="#contact" class="btn">Hire Me</a>-->
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Passionate developer specializing in C#, .NET Core & Framework, SQL, Python, and database management. Committed to creating efficient and robust solutions while continuously expanding skills and knowledge in the ever-evolving tech landscape.</p>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>C#</li>
+                <li>.Net Core & Framework</li>
+                <li>Python Scripting</li>
+                <li>Pandas</li>
+                <li>API integration</li>
+                <li>Database Management</li>
+                <li>SQL</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project">
+                <img src="#" alt="Project Image">
+                <h3>Project and Research Management system</h3>
+                <p>A local program that allows my colleagues to search for components they need
+                    for their projects.
+                    These features are going to be added in the feature:
+                        - Allow users to save project data and calculate the amounts of components
+                        needed for a certain amount projects production immediately.
+                        - Allow the user to make orders directly from the app without having to access the website.
+                    Uses a local server to distribute all data throughout the company.
+                    </p>
+            </div>
+            <br>
+            <div class="project">
+                
+                <img src="#" alt="Project Image">
+                <h3>Database Data Inserter</h3>
+                <p>I combined this project with the 1st one to better manage insertion from 
+                    a specified file.
+                    This is a command prompt project used by me as a tool.
+                    It allows me to search components from a list given by my coworker, 
+                    based on their Distributor. 
+                    It uses C#, SQL queries and API POST,GET calls. It includes a small
+                    Python script too integrated into the C# code since one distributor 
+                    had problems with C#.
+                </p>
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="https://formspree.io/f/mvoevddd" method="post">
+                <input type="text" name="firstName" placeholder="Your First Name">
+                <input type="text" name="lastName" placeholder="Your Last Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <input type="number" name="phone" placeholder="Your Phone Number">
+                <textarea name="message" placeholder="Your Message" style="width: inherit;"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
